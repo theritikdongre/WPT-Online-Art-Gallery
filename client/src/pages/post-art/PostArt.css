@@ -1,0 +1,72 @@
+/* Container for the Art Upload Form */
+.art-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Title */
+.art-upload h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Elements */
+.art-upload form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.art-upload label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.art-upload input[type="text"],
+.art-upload input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.art-upload input[type="file"] {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.art-upload button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #ff7f50;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.art-upload button:hover {
+  background-color: #ff5722;
+}
+
+/* Success/Error Message */
+.art-upload p {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ff5722;
+  margin-top: 20px;
+}

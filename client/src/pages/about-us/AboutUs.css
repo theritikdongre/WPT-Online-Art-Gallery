@@ -1,0 +1,89 @@
+/* Container */
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.team-title {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards Grid */
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Individual Card */
+.team-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.team-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #ffa500; /* Optional primary color */
+}
+
+/* Name & Role */
+.team-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.team-role {
+  font-weight: bold;
+  color: #ff6600;
+  margin: 5px 0 15px;
+}
+
+/* Description */
+.team-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #555;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6600;
+}
